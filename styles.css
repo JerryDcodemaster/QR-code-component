@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&family=Raleway:wght@100;200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center; /* vertical alignment */
+    height: 100vh;  
+    justify-content: center; /* horizontal alignment */
+}
+
+
+.container {
+    background-color:  hsl(0, 0%, 100%);
+    position: relative;
+    text-align: center;
+    /* margin: auto; */
+    height: 490px;
+    width: 320px;
+    border-radius: 15px;
+    
+    /* margin: 100px 0 0 500px; */
+    /* top: 100px; */
+    /* margin: 100px 0 0 60px; */
+    /* align-self: center; */
+    /* left: 500px; */
+}
+
+.image img {
+    width: 290px;
+    height: 280px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+/* header {
+    margin-top: 315px;
+} */
+
+header h2 {
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 10px;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.text p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+/* 
+@media(max-width: 375px) {
+    .container{
+        top: 100px;
+        left: 60px;
+    }
+} */
